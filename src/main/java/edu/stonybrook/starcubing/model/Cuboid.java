@@ -21,6 +21,22 @@ public class Cuboid {
 		aggrVal = 0;
 	}
 	
+	/*public Cuboid(Cuboid cuboid) {
+		attrValue = cuboid.attrValue;
+		aggrVal = cuboid.aggrVal;
+	}*/
+	
+	/*public <T> Cuboid(T curTree){
+		if (curTree.getClass() == getClass()){
+			Cuboid cuboid = (Cuboid) curTree;
+			attrValue = cuboid.attrValue;
+			aggrVal = cuboid.aggrVal;
+		} else {
+			this.attrValue = (String) curTree;
+			aggrVal = 0;
+		}
+	}*/
+
 	public void addChild(Cuboid child){
 		children.put(child.attrValue, child);
 	}
