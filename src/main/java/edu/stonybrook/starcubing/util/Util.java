@@ -24,6 +24,10 @@ import edu.stonybrook.starcubing.model.Cuboid;
 import edu.stonybrook.starcubing.model.Dimension;
 
 public class Util {
+	
+	private Util(){
+		
+	}
 
 	public static <T> Map<T, Integer> getOoccurrenceCount(List<T> attribute) {
 		Map<T, Integer> countMap = new HashMap<T, Integer>();

@@ -9,9 +9,6 @@ import edu.stonybrook.starcubing.util.Util;
 
 public class Main {
 
-	//private final static String PATH = "./input/AirQualityUCI/ReportExample.csv";
-	// "AirQualityUCI.xlsx","AirQualityUCI_less.xlsx","temp.xlsx",:ReportExample.csv";
-
 	private final static String PATH = "./input/bank.csv";
 	//	bank, AirQualityUCI, automobile, day
 
